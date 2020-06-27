@@ -1,0 +1,383 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Document
+  // Font Awesome
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+  // Google Fonts
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap')
+  // Bootstrap core CSS
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' rel='stylesheet')
+  // Material Design Bootstrap
+  link#bootstrap-css(href='//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css' rel='stylesheet')
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css' rel='stylesheet')
+  link(rel='stylesheet' href='assets/css/style.css')
+
+header
+  .navheader.flexing-nav
+    .container.d-flex.align-items-center
+      .d-flex
+        img(src="files/img/logo.png", alt="").logo-main
+        
+        ul.menu-lista
+          li
+            a(href="") Inicio
+          li
+            a(href="") Programas
+          li
+            a(href="") Peliculas
+          li
+            a(href="") Más recientes
+          li
+            a(href="") Mi lista
+         
+
+      .d-flex.container-link.ml-auto
+        a(href="").mr-4
+          <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-f</title><path d='M221.09,64A157.09,157.09,0,1,0,378.18,221.09,157.1,157.1,0,0,0,221.09,64Z' style='fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px'/><line x1='338.29' y1='338.29' x2='448' y2='448' style='fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px'/></svg>
+        a(href="").mr-4
+          <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-d</title><path d='M68.4,192A20.38,20.38,0,0,0,48,212.2a17.87,17.87,0,0,0,.8,5.5L100.5,400a40.46,40.46,0,0,0,39.1,29.5H372.4A40.88,40.88,0,0,0,411.7,400l51.7-182.3.6-5.5A20.38,20.38,0,0,0,443.6,192H68.4ZM261.72,352.07A42.07,42.07,0,1,1,304,310,42.27,42.27,0,0,1,261.72,352.07Z' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/><polyline points='160 192 256 64 352 192' style='fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px'/></svg>
+        a(href="")
+          <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-j</title><path d='M427.68,351.43C402,320,383.87,304,383.87,217.35,383.87,138,343.35,109.73,310,96c-4.43-1.82-8.6-6-9.95-10.55C294.2,65.54,277.8,48,256,48S217.79,65.55,212,85.47c-1.35,4.6-5.52,8.71-9.95,10.53-33.39,13.75-73.87,41.92-73.87,121.35C128.13,304,110,320,84.32,351.43,73.68,364.45,83,384,101.61,384H410.49C429,384,438.26,364.39,427.68,351.43Z' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><path d='M320,384v16a64,64,0,0,1-128,0V384' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/></svg>
+        div.profile-icon
+          <a class="dropdown-toggle ml-4" type="button" data-toggle="dropdown" aria-haspopup="true"aria-expanded="false">
+            img(src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80", alt="")
+          </a>
+
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+  .big-bg(style="background-image: url(assets/files/img/main-bg.png)")
+    .absolute-position
+      .container
+        .row
+          .col-md-6
+            img(src="https://i.pinimg.com/originals/d7/e8/1a/d7e81a271cbb92048fe655b894be0c15.png", alt="")
+            h2.net.mt-4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus dolor inventore explicabo rerum deserunt
+            .d-flex.mt-3
+              button.btn-play.mr-2.d-flex.align-items 
+                .svg-content.mr-1
+                  <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-c</title><path d='M112,111V401c0,17.44,17,28.52,31,20.16l247.9-148.37c12.12-7.25,12.12-26.33,0-33.58L143,90.84C129,82.48,112,93.56,112,111Z' style='fill:none;stroke:#000 !important;stroke-miterlimit:10;stroke-width:32px'/></svg>
+                span Jugar
+
+              button.btn-more-info.d-flex.align-items-center
+                .svg-content.mr-1
+                  <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-a</title><path d='M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z' style='fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px'/><path d='M250.26,166.05,256,288l5.73-121.95a5.74,5.74,0,0,0-5.79-6h0A5.74,5.74,0,0,0,250.26,166.05Z' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><path d='M256,367.91a20,20,0,1,1,20-20A20,20,0,0,1,256,367.91Z'/></svg> 
+                span Más información
+          .col-md-6
+.main-container
+ 
+  .main-list-container
+    main
+      .container
+        section
+          h2 Continua jugando
+          ul
+            li.item01
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/466272/moviethumb/once-upon-a-time-in-hollywood-5dfeb7beb0d22.jpg)")
+                img(src="https://fanart.tv/fanart/movies/466272/moviebackground/untitled-manson-murders-project-5c58b437a6e65.jpg")
+              .card
+                h3 Once upon a time in... Hollywood
+                .info 
+                  .match 99% Match
+                  .age TV-14
+                  .dur 2h 40min 
+                .tags 
+                  span Comedy
+                  span Drama
+                  span Action
+            li.item02
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/475557/moviethumb/joker-5db693c454a3e.jpg)")
+                img(src="https://fanart.tv/fanart/movies/475557/moviebackground/joker-5d68337505352.jpg")
+              .card
+                h3 Joker
+                .info 
+                  .match 95% Match
+                  .age TV-14
+                  .dur 2h 2min 
+                .tags 
+                  span Crime
+                  span Drama
+                  span Thriller
+            li.item03
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/496243/moviethumb/parasite-5d2d5ab30c73d.jpg)")
+                img(src="https://fanart.tv/fanart/movies/496243/moviebackground/parasite-5df5fb5439d1d.jpg")
+              .card
+                h3 Parasite
+                .info 
+                  .match 98% Match
+                  .age TV-14
+                  .dur 2h 12min 
+                .tags 
+                  span Comedy
+                  span Crime
+                  span Drama
+            li.item04
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/359724/moviethumb/ford-v-ferrari-5db74ab5a49b9.jpg)")
+                img(src="https://fanart.tv/fanart/movies/359724/moviebackground/go-like-hell-5d0839e2ecc25.jpg")
+              .card
+                h3 Ford v. Ferrari
+                .info 
+                  .match 96% Match
+                  .age TV-PG
+                  .dur 2h 32min 
+                .tags 
+                  span Action
+                  span Biography
+                  span Drama
+            li.item05
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/359724/moviethumb/ford-v-ferrari-5db74ab5a49b9.jpg)")
+                img(src="https://fanart.tv/fanart/movies/359724/moviebackground/go-like-hell-5d0839e2ecc25.jpg")
+              .card
+                h3 Ford v. Ferrari
+                .info 
+                  .match 96% Match
+                  .age TV-PG
+                  .dur 2h 32min 
+                .tags 
+                  span Action
+                  span Biography
+                  span Drama
+        section
+          .row
+            .col-md-6
+              .freaure-img
+                img.img-responsive(src="https://i.pinimg.com/originals/d7/e8/1a/d7e81a271cbb92048fe655b894be0c15.png")
+            .col-md-6
+              div
+                img(src="", alt="")
+                h1 Logo del juego
+                 h2.net.mt-4(style="font-weight: 100;") Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus dolor inventore explicabo rerum deserunt
+                 .d-flex.mt-3
+                    button.btn-play.mr-2.d-flex.align-items 
+                      .svg-content.mr-1
+                        <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-c</title><path d='M112,111V401c0,17.44,17,28.52,31,20.16l247.9-148.37c12.12-7.25,12.12-26.33,0-33.58L143,90.84C129,82.48,112,93.56,112,111Z' style='fill:none;stroke:#000 !important;stroke-miterlimit:10;stroke-width:32px'/></svg>
+                      span Jugar
+
+                    button.btn-more-info.d-flex.align-items-center
+                      .svg-content.mr-1
+                        <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-a</title><path d='M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z' style='fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px'/><path d='M250.26,166.05,256,288l5.73-121.95a5.74,5.74,0,0,0-5.79-6h0A5.74,5.74,0,0,0,250.26,166.05Z' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><path d='M256,367.91a20,20,0,1,1,20-20A20,20,0,0,1,256,367.91Z'/></svg> 
+                      span Más información
+        section
+          h2 Top Movies 2019
+          ul
+            li.item01
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/466272/moviethumb/once-upon-a-time-in-hollywood-5dfeb7beb0d22.jpg)")
+                img(src="https://fanart.tv/fanart/movies/466272/moviebackground/untitled-manson-murders-project-5c58b437a6e65.jpg")
+              .card
+                h3 Once upon a time in... Hollywood
+                .info 
+                  .match 99% Match
+                  .age TV-14
+                  .dur 2h 40min 
+                .tags 
+                  span Comedy
+                  span Drama
+                  span Action
+
+            li.item02
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/475557/moviethumb/joker-5db693c454a3e.jpg)")
+                img(src="https://fanart.tv/fanart/movies/475557/moviebackground/joker-5d68337505352.jpg")
+              .card
+                h3 Joker
+                .info 
+                  .match 95% Match
+                  .age TV-14
+                  .dur 2h 2min 
+                .tags 
+                  span Crime
+                  span Drama
+                  span Thriller
+
+            li.item03
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/496243/moviethumb/parasite-5d2d5ab30c73d.jpg)")
+                img(src="https://fanart.tv/fanart/movies/496243/moviebackground/parasite-5df5fb5439d1d.jpg")
+              .card
+                h3 Parasite
+                .info 
+                  .match 98% Match
+                  .age TV-14
+                  .dur 2h 12min 
+                .tags 
+                  span Comedy
+                  span Crime
+                  span Drama
+
+            li.item04
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/359724/moviethumb/ford-v-ferrari-5db74ab5a49b9.jpg)")
+                img(src="https://fanart.tv/fanart/movies/359724/moviebackground/go-like-hell-5d0839e2ecc25.jpg")
+              .card
+                h3 Ford v. Ferrari
+                .info 
+                  .match 96% Match
+                  .age TV-PG
+                  .dur 2h 32min 
+                .tags 
+                  span Action
+                  span Biography
+                  span Drama
+
+            li.item05
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/398978/moviethumb/the-irishman-5ded4b24803d2.jpg)")
+                img(src="https://fanart.tv/fanart/movies/398978/moviebackground/the-irishman-5de15d18d48f4.jpg")
+              .card
+                h3 The Irishman
+                .info 
+                  .match 92% Match
+                  .age TV-MA
+                  .dur 3h 29min 
+                .tags 
+                  span Biography
+                  span Crime
+                  span Drama
+
+            li.item06
+              .img(style="background-image: url(https://fanart.tv/fanart/movies/492188/moviethumb/marriage-story-5dd0c5d3db138.jpg)")
+                img(src="https://fanart.tv/fanart/movies/492188/moviebackground/marriage-story-5def5bf3a229b.jpg")
+              .card
+                h3 Marriage Story
+                .info 
+                  .match 94% Match
+                  .age TV-14
+                  .dur 2h 17min 
+                .tags 
+                  span Comedy
+                  span Drama
+                  span Romance
+
+        section
+          h2 Top Tv Shows 2019
+          ul
+            li.item01
+              .img(style="background-image: url(https://fanart.tv/fanart/tv/360893/tvthumb/chernobyl-5d9f83da0b06d.jpg)")
+                img(src="https://fanart.tv/fanart/tv/360893/showbackground/chernobyl-5cee1a264b23a.jpg")
+              .card
+                h3 Chernobyl
+                .info 
+                  .match 99% Match
+                  .age TV-14
+                  .dur 1 Season 
+                .tags 
+                  span Drama
+                  span History
+                  span Thriller
+
+            li.item02
+              .img(style="background-image: url(https://fanart.tv/fanart/tv/355567/tvthumb/the-boys-5d50fd5fe5f13.jpg)")
+                img(src="https://fanart.tv/fanart/tv/355567/showbackground/the-boys-5d4c66a61f5cb.jpg")
+              .card
+                h3 The Boys
+                .info 
+                  .match 98% Match
+                  .age TV-14
+                  .dur 1 Season
+                .tags 
+                  span Action
+                  span Comedy
+                  span Crime
+
+            li.item03
+              .img(style="background-image: url(https://fanart.tv/fanart/tv/314614/tvthumb/fleabag-5808829144e0d.jpg)")
+                img(src="https://fanart.tv/fanart/tv/314614/showbackground/fleabag-5bbfae2909224.jpg")
+              .card
+                h3 Fleabag
+                .info 
+                  .match 98% Match
+                  .age TV-14
+                  .dur 2 Seasons
+                .tags 
+                  span Comedy
+                  span Drama
+                  span Romance
+
+            li.item04
+              .img(style="background-image: url(https://fanart.tv/fanart/tv/328708/tvthumb/mindhunter-5b1257a535a01.jpg)")
+                img(src="https://fanart.tv/fanart/tv/328708/showbackground/mindhunter-5b125a7844f6a.jpg")
+              .card
+                h3 Mindhunter
+                .info 
+                  .match 94% Match
+                  .age TV-14
+                  .dur 2 Seasons
+                .tags 
+                  span Crime 
+                  span Drama
+                  span Thriller
+
+            li.item05
+              .img(style="background-image: url(https://fanart.tv/fanart/tv/305288/tvthumb/stranger-things-5d1e691923280.jpg)")
+                img(src="https://fanart.tv/fanart/tv/305288/showbackground/stranger-things-5d2f417e8faae.jpg")
+              .card
+                h3 Stranger Things
+                .info 
+                  .match 93% Match
+                  .age TV-PG
+                  .dur 3 Seasons 
+                .tags 
+                  span Drama
+                  span Fantasy
+                  span Horror
+                  
+            li.item06
+              .img(style="background-image: url(https://fanart.tv/fanart/tv/270915/tvthumb/peaky-blinders-5277bdad6f903.jpg)")
+                img(src="https://fanart.tv/fanart/tv/270915/showbackground/peaky-blinders-5277be064c089.jpg")
+              .card
+                h3 Peaky Blinders 
+                .info 
+                  .match 87% Match
+                  .age TV-14
+                  .dur 5 Seasons 
+                .tags 
+                  span Crime
+                  span Drama
+                  span Action
+
+          section
+          .row
+            
+            .col-md-6
+              div
+                img(src="", alt="")
+                h1 Logo del juego
+                div.d-flex
+                  span.green-font.mr-5 Nuevo
+                  |  Lorem ipsum dolor, sit amet
+
+                h2.net.mt-4(style="font-weight: 100;") Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus dolor inventore explicabo rerum deserunt
+                .d-flex.mt-3
+                    button.btn-play.mr-2.d-flex.align-items 
+                      .svg-content.mr-1
+                        <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-c</title><path d='M112,111V401c0,17.44,17,28.52,31,20.16l247.9-148.37c12.12-7.25,12.12-26.33,0-33.58L143,90.84C129,82.48,112,93.56,112,111Z' style='fill:none;stroke:#000 !important;stroke-miterlimit:10;stroke-width:32px'/></svg>
+                      span Jugar
+
+                    button.btn-more-info.d-flex.align-items-center
+                      .svg-content.mr-1
+                        <svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><title>ionicons-v5-a</title><path d='M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z' style='fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px'/><path d='M250.26,166.05,256,288l5.73-121.95a5.74,5.74,0,0,0-5.79-6h0A5.74,5.74,0,0,0,250.26,166.05Z' style='fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px'/><path d='M256,367.91a20,20,0,1,1,20-20A20,20,0,0,1,256,367.91Z'/></svg> 
+                      span Más información
+            .col-md-6
+              .freaure-img
+                img.img-responsive(src="https://i.pinimg.com/originals/d7/e8/1a/d7e81a271cbb92048fe655b894be0c15.png")
+.footer.site-footer-wrapper
+  .site-footer
+    .footer-top ¿Preguntas? Llama al 171 800 835 909
+    ul.footer-links
+      li.footer-link-item
+        a(href="") Términos de las tarjetas de regalo
+      li.footer-link-item
+        a(href="") Términos de uso
+      li.footer-link-item
+        a(href="") Declaración de privacidad
+// JQuery
+script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+// Bootstrap tooltips
+script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js')
+// Bootstrap core JavaScript
+script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js')
+// MDB core JavaScript
+script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js')
+script(src="assets/js/script.js")
